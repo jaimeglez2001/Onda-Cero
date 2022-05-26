@@ -46,11 +46,15 @@ export default {
             img
                 @apply object-cover
         .info_holder 
-            @apply flex justify-center items-center absolute
+            @apply flex justify-center items-center absolute overflow-visible h-full
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
+            background-blend-mode: multiply
             @apply w-full
             @apply flex justify-center items-center
             .onda_logo
                 @apply mr-2 drop-shadow-xl
+                img
+                    @apply drop-shadow-md
             .title
                 color: #EDF7ED
                 text-shadow: 2px 2px 3px rgba(0,0,0, 0.5)
@@ -71,8 +75,9 @@ export default {
                 @apply object-cover 
         .info_holder 
             @apply flex justify-center items-center absolute
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
             .onda_logo
                 @apply mr-2 drop-shadow-xl
             .title
@@ -95,8 +100,9 @@ export default {
                 @apply object-cover 
         .info_holder 
             @apply flex justify-center items-center absolute
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
             .onda_logo
                 @apply mr-2 drop-shadow-xl
             .title
@@ -118,8 +124,9 @@ export default {
                 @apply object-cover 
         .info_holder 
             @apply flex justify-center items-center absolute
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
             .onda_logo
                 @apply mr-2 drop-shadow-xl
             .title

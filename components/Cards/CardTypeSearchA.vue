@@ -51,8 +51,9 @@ export default {
                 @apply object-cover 
         .info_holder 
             @apply flex flex-col justify-center items-center absolute
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
             .program_holder
                 @apply flex
                 .title
@@ -83,8 +84,9 @@ export default {
                 @apply object-cover 
         .info_holder 
             @apply flex flex-col justify-center items-center absolute pb-2
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.2) 75%, rgba(255,255,255,0) 100%)
             .program_holder
                 @apply flex
                 .title
@@ -97,6 +99,7 @@ export default {
                     @apply font-semibold text-2xl mb-0
             .author
                 @apply text-white text-sm m-0
+                text-shadow: 2px 2px 3px rgba(0,0,0, 0.5)
         .progress_holder
             @apply px-4 absolute bottom-1 left-0 w-full drop-shadow-xl z-10
             .progress_bar

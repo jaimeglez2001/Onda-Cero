@@ -1,5 +1,5 @@
 <template>
-  <div class="explorer">
+  <div class="library">
 
     <!-- header -->
     <GlobalSearcher color="tr" :add="add"/>
@@ -48,7 +48,9 @@ export default {
 
 
 <style lang="sass" scoped>
-  .explorer 
+  *
+    font-family: "Inter"
+  .library 
     min-height: 100vh
     background-image: url("/bg2.png")
     background-repeat: no-repeat

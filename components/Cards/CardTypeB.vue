@@ -51,8 +51,9 @@ export default {
                 @apply object-cover
         .info_holder 
             @apply flex flex-col justify-center items-center absolute
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
             .title
                 color: #EDF7ED
                 text-shadow: 2px 2px 3px rgba(0,0,0, 0.5)

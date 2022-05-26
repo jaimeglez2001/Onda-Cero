@@ -2,28 +2,28 @@
     <div class="ctos_holder">
       <div class="ctos">
         <div class="home" v-if="HomeStatus == true">
-          <img src="onda_cero-15.png" width="32px">
+          <a href=""><img src="onda_cero-15.png" width="32px"></a> 
         </div>
         <div class="home" v-else>
-          <img src="onda_cero-11.svg" width="32px">
+          <a href=""><img src="onda_cero-11.svg" width="32px"></a> 
         </div>
         <div class="explorer" v-if="ExplorerStatus == true">
-          <img src="onda_cero-16.png" width="32px">
+          <a href="explore"><img src="onda_cero-16.png" width="32px"></a> 
         </div>
         <div class="explorer" v-else>
-          <img src="onda_cero-12.svg" width="32px">
+          <a href="explore"><img src="onda_cero-12.svg" width="32px"></a> 
         </div>
         <div class="library" v-if="LibraryStatus == true">
-          <img src="onda_cero-17.png" width="32px">
+          <a href="library"><img src="onda_cero-17.png" width="32px"></a> 
         </div>
         <div class="library" v-else>
-          <img src="onda_cero-13.svg" width="32px">
+          <a href="library"><img src="onda_cero-13.svg" width="32px"></a> 
         </div>
         <div class="radio" v-if="RadioStatus == true">
-          <img src="onda_cero-18.png" width="32px">
+          <a href="#"><img src="onda_cero-18.png" width="32px"></a> 
         </div>
         <div class="radio" v-else>
-          <img src="onda_cero-14.svg" width="32px">
+          <a href="#"> <img src="onda_cero-14.svg" width="32px"></a> 
         </div>
       </div>
     </div>

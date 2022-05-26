@@ -2,7 +2,7 @@
     <div class="banner">
         <div class="pic_holder"><img :src="picture"></div>
         <div class="info_holder">
-            <h3 class="title_green" v-if="WhiteBg == true">{{ title }}</h3>
+            <h3 class="title_green w-full h-full flex justify-center items-center text-center bg-white" v-if="WhiteBg == true">{{ title }}</h3>
             <h3 class="title_white" v-else-if="picture == `gradient.jpg`">{{ title }}</h3>
             <h3 class="title" v-else>{{ title }}</h3>
         </div>
@@ -32,8 +32,9 @@ export default {
                 @apply object-cover 
         .info_holder 
             @apply flex justify-center items-center absolute
-            @apply w-full
+            @apply w-full h-full
             @apply flex justify-center items-center
+            background: linear-gradient(360deg, rgba(0,0,0,.12) 50%, rgba(255,255,255,0) 100%)
             .onda_logo
                 @apply mr-2 drop-shadow-xl
             .title

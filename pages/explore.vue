@@ -60,6 +60,8 @@ export default {
 
 
 <style lang="sass" scoped>
+  *
+    font-family: "Inter"
   .explorer 
     min-height: 100vh
     background-image: url("/bg2.png")

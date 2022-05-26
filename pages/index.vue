@@ -67,6 +67,8 @@ export default {
 
 
 <style lang="sass" scoped>
+  *
+    font-family: "Inter"
   .index 
     min-height: 100vh
     background-image: url("/background.png")
