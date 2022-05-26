@@ -2,28 +2,28 @@
     <div class="ctos_holder">
       <div class="ctos">
         <div class="home" v-if="HomeStatus == true">
-          <a href=""><img src="onda_cero-15.png" width="32px"></a> 
+           <nuxt-link to="/"><img src="onda_cero-15.png" width="32px"></nuxt-link> 
         </div>
         <div class="home" v-else>
-          <a href=""><img src="onda_cero-11.svg" width="32px"></a> 
+           <nuxt-link to="/"><img src="onda_cero-11.svg" width="32px"></nuxt-link> 
         </div>
         <div class="explorer" v-if="ExplorerStatus == true">
-          <a href="explore"><img src="onda_cero-16.png" width="32px"></a> 
+          <nuxt-link to="/explore"><img src="onda_cero-16.png" width="32px"></nuxt-link> 
         </div>
         <div class="explorer" v-else>
-          <a href="explore"><img src="onda_cero-12.svg" width="32px"></a> 
+           <nuxt-link to="/explore"><img src="onda_cero-12.svg" width="32px"></nuxt-link> 
         </div>
         <div class="library" v-if="LibraryStatus == true">
-          <a href="library"><img src="onda_cero-17.png" width="32px"></a> 
+           <nuxt-link to="/library"><img src="onda_cero-17.png" width="32px"></nuxt-link> 
         </div>
         <div class="library" v-else>
-          <a href="library"><img src="onda_cero-13.svg" width="32px"></a> 
+           <nuxt-link to="/library"><img src="onda_cero-13.svg" width="32px"></nuxt-link> 
         </div>
         <div class="radio" v-if="RadioStatus == true">
-          <a href="#"><img src="onda_cero-18.png" width="32px"></a> 
+           <nuxt-link to=""><img src="onda_cero-18.png" width="32px"></nuxt-link> 
         </div>
         <div class="radio" v-else>
-          <a href="#"> <img src="onda_cero-14.svg" width="32px"></a> 
+           <nuxt-link to=""> <img src="onda_cero-14.svg" width="32px"></nuxt-link> 
         </div>
       </div>
     </div>
